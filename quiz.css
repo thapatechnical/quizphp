@@ -1,0 +1,225 @@
+/*Custom css file for design*/
+
+body {
+  font-family: "urbanist", sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px;
+}
+.header {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #343a40;
+  color: white;
+}
+.header img {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+}
+.header a {
+  color: #ffdd57;
+  text-decoration: none;
+  font-size: 1.2em;
+  margin-left: 10px;
+}
+.content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+.content img {
+  width: 100%;
+  height: auto;
+}
+.login-box {
+  width: 30%;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.login-box input[type="text"],
+.login-box input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.login-box input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.login-box input[type="submit"]:hover {
+  background-color: #218838;
+}
+.error {
+  color: red;
+  font-size: 0.9em;
+}
+.signup {
+  text-align: center;
+  margin-top: 20px;
+}
+.signup a {
+  color: #007bff;
+  text-decoration: none;
+}
+.signup a:hover {
+  text-decoration: underline;
+}
+
+form {
+  margin-top: 1.6rem;
+}
+
+.table-quiz tbody,
+.table-style tbody {
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+/* CSS */
+.button-1,
+input[type="submit"] {
+  background-color: #1652f0;
+  border: 1px solid #1652f0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-family: Graphik, -apple-system, system-ui, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  line-height: 0.66;
+  overflow: visible;
+  padding: 12px 16px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: all 80ms ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: fit-content;
+  margin: 1.2rem 0;
+}
+
+.button-1,
+input[type="submit"]:disabled {
+  opacity: 0.5;
+}
+
+.button-1,
+input[type="submit"]:focus {
+  outline: 0;
+}
+
+.button-1,
+input[type="submit"]:hover {
+  background-color: #0a46e4;
+  border-color: #0a46e4;
+}
+
+.button-1,
+input[type="submit"]:active {
+  background-color: #0039d7;
+  border-color: #0039d7;
+}
+
+.table-style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+body {
+  margin-left: 0px;
+  margin-top: 0px;
+}
+.style1 {
+  color: #ffffff;
+  font-weight: bold;
+}
+.style2 {
+  color: #990000;
+  font-weight: bold;
+}
+.style4 {
+  color: #000000;
+  font-weight: bold;
+}
+.style5 {
+  color: #990033;
+}
+.style6 {
+  color: #ece9d8;
+}
+.style7 {
+  color: #993300;
+  font-weight: bold;
+}
+.style8 {
+  color: #6633cc;
+  font-weight: bold;
+  text-decoration: underline;
+}
+a:link {
+  color: #330066;
+  text-decoration: none;
+}
+a:hover {
+  color: #ffcc00;
+  text-decoration: underline;
+}
+a:visited {
+  color: #330066;
+  text-decoration: none;
+}
+.head1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: #ff0000;
+  text-align: center;
+  font-weight: bold;
+}
+.errors {
+  color: #ff0000;
+  font-weight: bold;
+}
+.tot {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #000000;
+}
+.tot {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000000;
+}
+.tans {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #00cc66;
+}
+.fans {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff0000;
+}
